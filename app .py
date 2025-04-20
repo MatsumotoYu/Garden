@@ -8,7 +8,7 @@ from datetime import datetime
 import json
 
 # CSS読み込み
-with open("src/style.css") as f:
+with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # データベース初期化
